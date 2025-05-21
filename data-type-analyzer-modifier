@@ -1,0 +1,23 @@
+let ageOfFather = "45";
+let ageOfSister = 12;
+let amIWearingAPinkShirt = true;
+let goldenToiletValue = null;
+let myAge;
+
+console.log("Father's Age: ", ageOfFather, "| Type: ", typeof ageOfFather);
+console.log("Sister's Age: ", ageOfSister, "| Type: ", typeof ageOfSister);
+console.log("Pink Shirt Day?: ", amIWearingAPinkShirt, "| Type: ", typeof amIWearingAPinkShirt);
+console.log("What is a golden toilet's value?: ", goldenToiletValue, "| Type: ", typeof goldenToiletValue);
+console.log("My Age: ", myAge, "| Type: ", typeof myAge);
+
+ageOfFather = Number(ageOfFather);
+ageOfSister = String(ageOfSister);
+amIWearingAPinkShirt = String(amIWearingAPinkShirt);
+goldenToiletValue = String(goldenToiletValue);
+myAge = Boolean();
+
+console.log("Father's Age: ", ageOfFather, "| Type: ", typeof ageOfFather);
+console.log("Sister's Age: ", ageOfSister, "| Type: ", typeof ageOfSister);
+console.log("Pink Shirt Day?: ", amIWearingAPinkShirt, "| Type: ", typeof amIWearingAPinkShirt);
+console.log("What is a golden toilet's value?: ", goldenToiletValue, "| Type: ", typeof goldenToiletValue);
+console.log("My Age: ", myAge, "| Type: ", typeof myAge);
